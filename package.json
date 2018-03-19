@@ -16,8 +16,8 @@
     "semantic-ui-react": "^0.78.3"
   },
   "scripts": {
-    "debbug": "webpack --display-error-details",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
